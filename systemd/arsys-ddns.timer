@@ -1,0 +1,9 @@
+[Unit]
+Description=Make your Arsys domain a DDNS
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=2h
+
+[Install]
+WantedBy=timers.target

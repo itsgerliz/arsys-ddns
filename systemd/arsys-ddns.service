@@ -1,0 +1,7 @@
+[Unit]
+Description=Make your Arsys domain a DDNS
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=Here goes the full path to wherever you installed the script
